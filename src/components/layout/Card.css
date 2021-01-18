@@ -1,0 +1,26 @@
+.Card {
+  flex: 1;
+  margin: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  /* O proprio card sendo um flax-box */
+  display: flex;
+  flex-direction: column;
+  /* Definindo a largura minima do card */
+  min-width: 300px;
+}
+
+.Card .Footer {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 0px;
+}
+.Card .Content {
+  padding: 15px 0px;
+  background-color:#fff;
+  color:#000;
+  /* Para fazer o conteudo crescer eu uso o flex:1 */
+  flex: 1;
+}
