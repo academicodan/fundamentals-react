@@ -1,5 +1,10 @@
 .App {
   display: flex;
-  /* Através do flex-wrap: ; consigo fazer a quenra de linha no esquema responsividade*/
+  flex-direction: column;
+}
+
+.Cards {
+  display: flex;
   flex-wrap: wrap;
+  /* Através do flex-wrap: ; consigo fazer a quenra de linha no esquema responsividade*/
 }

@@ -1,0 +1,5 @@
+props é somente leitura, por tanto em um componente não é possivel autera-lo
+ficamos então que //props.titulo = "Outro titulo" não é válido
+
+
+O componente Mega consiste em gerar um array de 6 posiçõe entre numeros de 1 a 60 sem que haja numeros repetitivos
